@@ -30,7 +30,7 @@ export default function OgTaahhut() {
           <li>Enerji izninin alınması.</li>
           <li>Tesisin projelendirilip, onaylı projelerin çıkarılması.</li>
           <li>Trafo merkezleri tesis ve montajı.</li>
-          <li>Şalt tesisleri teis ve montajı.</li>
+          <li>Şalt tesisleri tesis ve montajı.</li>
           <li>Enerji nakil hatları.</li>
           <li>Orta gerilim kablo tranşe, muf ve başlık yapımı.</li>
           <li>Yüksek gerilim işletme sorumluluğu</li>

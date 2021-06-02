@@ -16,7 +16,7 @@ export default function Kompanzasyon() {
 
       <div className='px-4 flex flex-col justify-start items-start simpleContainer'>
         <p className='text-justify mb-3'>
-          Elektrikle beslenen yüklerin çoğu şebekende aktif güç çekerken aynı
+          Elektrikle beslenen yüklerin çoğu şebekeden aktif güç çekerken aynı
           zamanda reaktif güç de çekerler. Bu çekilen reaktif enerji belli
           sınırların üzerinde olursa, elektrik faturamıza reaktif ceza olarak
           yansır. Reaktif ceza, endüktif reaktif enerjiden kaynaklanabileceği
@@ -36,7 +36,7 @@ export default function Kompanzasyon() {
         </ul>
 
         <p className='text-justify mb-3'>
-          Olması durumunda tüketici, fatura tutarına reaktif ceza bedeli
+          olması durumunda, tüketicinin fatura tutarına reaktif ceza bedeli
           eklenecektir. Bu cezalardan sakınmak için tesiste kompanzasyon panosu
           yapılması ve reaktif enerji tüketiminin takip edilmesi gerekir. Ayrıca
           kompanzasyon panosunda yaşanabilecek arızaların önüne geçebilmek için

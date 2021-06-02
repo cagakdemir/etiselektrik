@@ -74,7 +74,7 @@ export default function AgPano() {
         <p className='text-justify mb-3'>
           Schneider Prisma panolarda, panoyu yapan partnerle birlikte üretici
           Schneider’ın da desteği ve onayı alınmış olur. Projelendirme
-          aşamasından teklif sürecine, İmalattan satış sonrası desteğe kadar hem
+          aşamasından teklif sürecine, imalattan satış sonrası desteğe kadar hem
           Etis Elektrik’in hem de Schneider’ın desteğini istediğiniz zaman
           alabilirsiniz.
         </p>

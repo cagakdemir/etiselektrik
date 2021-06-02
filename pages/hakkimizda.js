@@ -22,7 +22,7 @@ const whyUs = [
   'Satış sonrası destek',
   'Hızlı geri dönüş',
   '25 yıllık deneyim',
-  'Schneider partnerliği',
+  '15 yıllık Schneider partnerliği',
   'İhtiyaçlarınıza uygun esnek çözümler',
 ];
 

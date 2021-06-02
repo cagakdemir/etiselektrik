@@ -33,7 +33,7 @@ export default function EnerjiKalitesi() {
         </ul>
 
         <p className='text-justify mb-3'>
-          Elektronik cihazlarınızda problemlerle karşılaşıyor, makinelerin
+          Elektronik cihazlarınızda problemlerle karşılaşıyor, makinelerinizin
           elektrik kartları devamlı yanıyor, bilgisayarlarınızın birçoğu ertesi
           gün geldiğinizde açılmıyor, topraklama tesisatınızda problem olduğunu
           düşünüyor olabilirsiniz. Eğer bu ve benzeri konulardan şikayetçi

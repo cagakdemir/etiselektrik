@@ -96,7 +96,7 @@ export default function ProductCard() {
                 <div>
                   <FaRegCheckCircle className='mr-1 w-5 h-6 text-primary' />
                 </div>
-                Şalt tesisleri teis ve montajı.
+                Şalt tesisleri tesis ve montajı.
               </li>
               <li className='flex'>
                 <div>
@@ -388,7 +388,7 @@ export default function ProductCard() {
                 <div>
                   <FaRegCheckCircle className='mr-1 w-5 h-6 text-primary' />
                 </div>
-                Reaktif enerji tüketiminin internten üzerinden izlenerek ceza
+                Reaktif enerji tüketiminin internet üzerinden izlenerek ceza
                 sınırları aşılmadan hızlıca müdahale olanağı.
               </li>
               <li className='flex'>
