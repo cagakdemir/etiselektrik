@@ -87,8 +87,8 @@ export default function BlogPost({ post }) {
 }
 
 export async function getServerSideProps({ query: { slug } }) {
-  try {
-    const res = await fetch(`${API_URL}/teknikbilgis/${cleanSlug}`);
+  // try {
+    const res = await fetch(`${API_URL}/teknikbilgis/${slug}`);
     const post = await res.json();
 
     return {
@@ -96,11 +96,11 @@ export async function getServerSideProps({ query: { slug } }) {
         post: post,
       },
     };
-  } catch {
-    return {
-      props: {
-        post: {},
-      },
-    };
-  }
+  // } catch {
+  //   return {
+  //     props: {
+  //       post: {},
+  //     },
+  //   };
+  // }
 }
