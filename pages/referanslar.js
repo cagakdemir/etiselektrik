@@ -1,17 +1,18 @@
+import React from 'react';
 import Layout from '../components/Layout';
-import Header from '../components/Header';
-import ProductCard from '../components/ProductCard';
-import WhyUs from '../components/WhyUs';
 import References from '../components/References';
+import Statistics from '../components/Statistics';
 import { API_URL } from '../config/index';
 
-export default function Home({ references }) {
+export default function Referanslar({ references }) {
   return (
-    <Layout>
-      <Header />
-      <ProductCard />
-      <WhyUs />
+    <Layout
+      title='Etis Elektrik Referanslar'
+      description='Etis Elektrik AG dağıtım panoları, OG Taahhüt, OG/AG Bakım, Kompanzasyon Referanslar'
+      keywords='Elektrik Pano, Referans'
+    >
       <References references={references} />
+      <Statistics />
     </Layout>
   );
 }
