@@ -50,6 +50,9 @@ export default function Contact() {
             <p className='leading-relaxed text-secondary font-semibold'>
               (0212)5493725
             </p>
+            <p className='leading-relaxed text-secondary font-semibold'>
+              (0530)5754381
+            </p>
           </div>
         </div>
       </div>
