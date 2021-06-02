@@ -89,7 +89,16 @@ export default function BlogPost({ post }) {
 
 export async function getServerSideProps({ query: { slug } }) {
   try {
-    const res = await fetch(`${API_URL}/teknikbilgis/${slug}`);
+    // Cleaning the slug query
+    let cleanSlug = ''
+    let colonIndex = slug.indexOf(':');
+    if (colonIndex !== -1) {
+      cleanSlug = slug.split(':')[0]
+    } else {
+      cleanSlug = slug
+    }
+
+    const res = await fetch(`${API_URL}/teknikbilgis/${cleanSlug}`);
     const post = await res.json();
 
     return {
