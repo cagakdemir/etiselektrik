@@ -3,8 +3,8 @@ import ReactHtmlParser from 'react-html-parser';
 import Layout from '../../components/Layout';
 import { API_URL } from '../../config/index';
 
-export default function BlogPost() {
-  // export default function BlogPost({ post }) {
+export default function BlogPost({ post }) {
+  console.log(post)
   // // <p> styling
   // let styledContent = post.content?.replaceAll(
   //   '<p>',
