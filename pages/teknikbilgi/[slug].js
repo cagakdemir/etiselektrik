@@ -28,7 +28,7 @@ export async function getServerSideProps({ query: { slug } }) {
   let styledContent = ''
 
   // <p> styling
-  styledContent = post.content.replaceAll(
+  styledContent = post.content.replace(
     '<p>',
     '<p style="margin-bottom:0.75rem; margin-top: 0.75rem;">'
   );
