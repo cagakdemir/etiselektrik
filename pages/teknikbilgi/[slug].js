@@ -73,16 +73,17 @@ export default function BlogPost({ post }) {
 
   return (
     <Layout
-    // title={post.title}
-    // description={post.metaDescription}
-    // keywords={post.metaKeywords}
+      title={post.title}
+      description={post.metaDescription}
+      keywords={post.metaKeywords}
     >
-      {/* <h1 className='px-4 py-4 md: my-4 simpleContainer font-semibold text-2xl text-secondary text-left'>
+      <h1 className='px-4 py-4 md: my-4 simpleContainer font-semibold text-2xl text-secondary text-left'>
         {post.title}
       </h1>
       <div className='px-4 simpleContainer text-secondary'>
-        {ReactHtmlParser(styledContent)}
-      </div> */}
+        {/* {ReactHtmlParser(styledContent)} */}
+        {ReactHtmlParser(post.content)}
+      </div>
     </Layout>
   );
 }
