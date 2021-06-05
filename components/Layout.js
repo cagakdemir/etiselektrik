@@ -3,6 +3,9 @@ import { useRouter } from 'next/router';
 import Navbar from './Navbar';
 import Footer from './Footer';
 
+import WhatsAppWidget from 'react-whatsapp-widget';
+import 'react-whatsapp-widget/dist/index.css';
+
 export default function Layout({ title, keywords, description, children }) {
   const router = useRouter();
 
@@ -16,6 +19,13 @@ export default function Layout({ title, keywords, description, children }) {
       <Navbar />
       <div>{children}</div>
       <Footer />
+      <WhatsAppWidget
+        phoneNumber='905305754381'
+        textReplyTime=''
+        message='Merhaba, size nasıl yardımcı olabilirim?'
+        companyName='Etis Elektrik'
+        sendButton='Gönder'
+      />
     </div>
   );
 }
