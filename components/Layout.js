@@ -3,16 +3,7 @@ import Head from 'next/head';
 import Navbar from './Navbar';
 import Footer from './Footer';
 
-import tawkTo from 'tawkto-react';
-
 export default function Layout({ title, keywords, description, children }) {
-  const tawkToPropertyId = '60bb5650dd60a20abbe4b843';
-  const tawkToKey = '710cfa9bf0a0507bbe378278e101605005699f88';
-
-  useEffect(() => {
-    tawkTo(tawkToPropertyId, tawkToKey);
-  }, []);
-
   return (
     <div>
       <Head>
