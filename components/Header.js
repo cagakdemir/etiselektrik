@@ -10,12 +10,13 @@ export default function Header() {
             <h1 className='max-w-lg mb-6 text-3xl font-bold text-primary sm:text-4xl'>
               ETİS ELEKTRİK
               <span className='inline-block text-primary text-2xl sm:text-3xl'>
-                Schneider Prisma Pano Partner
+                AG/OG Elektrik Çözüm Partneriniz
               </span>
             </h1>
             <p className='text-base text-secondary md:text-lg'>
-              Alçak Gerilim - Orta Gerilim pano, otomasyon, taahhüt, servis ve
-              bakım konularında her türlü ihtiyacınızı karşılamaya hazırız.
+              Alçak Gerilim - Orta Gerilim pano, otomasyon, taahhüt, servis,
+              bakım, kompanzasyon, enerji kalitesi konularında her türlü
+              ihtiyacınızı karşılamaya hazırız.
             </p>
           </div>
           <div className='flex items-start'>
@@ -24,11 +25,6 @@ export default function Header() {
                 <a className='btnPrimary'>TEKLİF AL</a>
               </Link>
             </div>
-            {/* <div>
-              <Link href='/iletisim'>
-                <a className='btnSecondary ml-8'>İLETİŞİM</a>
-              </Link>
-            </div> */}
           </div>
         </div>
         <div className='lg:w-1/2'>
