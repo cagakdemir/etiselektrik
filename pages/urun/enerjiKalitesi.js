@@ -8,7 +8,7 @@ export default function EnerjiKalitesi() {
       description='Enerji kalitesi sorunlarınıza çözümler. Frekans kaynaklı gerilim problemleri, gerilim darbeleri, aşırı harmonik, topraklama, faz dengesizliği, statik elektrik kaynaklı problemler.'
       keywords='Aşırı yüksek gerilim, Aşırı düşük gerilim, Gerilim Darbesi, Transient, Harmonik, Topraklama, Statik elektrik, elektromanyetik girişim'
     >
-      <div className='flex justify-center items-center'>
+      <div className='flex justify-center items-center simpleContainer'>
         <h1 className='my-4 text-2xl font-bold text-secondary sm:my-8 sm:text-3xl'>
           ENERJİ KALİTESİ ÇÖZÜMLERİ
         </h1>

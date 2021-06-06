@@ -8,7 +8,7 @@ export default function OgTaahhut() {
       description='Orta gerilim trafo merkezlerinin enerji izninin alınması, projelendirilmesi, tedarik ve montajı, kabul işlemleri. Yüksek gerilim işletme sorumluluğu.'
       keywords='Trafo merkezleri, Enerji nakil hatları, Yüksek gerilim işletme sorumluluğu, Enerji izni, enerji müsade yazısı,'
     >
-      <div className='flex justify-center items-center'>
+      <div className='flex justify-center items-center simpleContainer'>
         <h1 className='my-4 text-2xl font-bold text-secondary sm:my-8 sm:text-3xl'>
           ORTA GERİLİM TAAHHÜT
         </h1>

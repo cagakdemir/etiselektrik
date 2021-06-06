@@ -8,9 +8,9 @@ export default function Kompanzasyon() {
       description='Reaktif ceza önlemleri. Kompanzasyon panoları. Kompanzasyon bakım.'
       keywords='Reaktif ceza, Endüktif ceza, Kapasitif ceza, Kompanzasyon, Kompanzasyon bakım'
     >
-      <div className='flex justify-center items-center'>
+      <div className='flex justify-center items-center simpleContainer'>
         <h1 className='my-4 text-2xl font-bold text-secondary sm:my-8 sm:text-3xl'>
-          KOMPANZASYON
+          KOMPANZASYON ÇÖZÜMLERİ
         </h1>
       </div>
 

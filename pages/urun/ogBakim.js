@@ -8,7 +8,7 @@ export default function OgBakim() {
       description='Orta Gerilim tesislerinizde servis ve bakım. Güç trafosu, hücre, kesici, röle servis, test ve bakımları.'
       keywords='Trafo bakım, Trafo servis, Trafo merkezi, Trafo merkezi bakım, Trafo merkezi servis'
     >
-      <div className='flex justify-center items-center'>
+      <div className='flex justify-center items-center simpleContainer'>
         <h1 className='my-4 text-2xl font-bold text-secondary sm:my-8 sm:text-3xl'>
           ORTA GERİLİM TRAFO VE HÜCRE BAKIM
         </h1>

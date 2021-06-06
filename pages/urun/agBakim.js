@@ -8,7 +8,7 @@ export default function AgBakim() {
       description='Alçak gerilim servis ve bakım. Dokunmaya, arka, yangına karşı önlemler. Termal kamera raporu. Pano, motor, genel tesisat kontrol ve bakımı'
       keywords='Elektrik bakım, termal kamera, Ark flash, Ark, Topraklama'
     >
-      <div className='flex justify-center items-center'>
+      <div className='flex justify-center items-center simpleContainer'>
         <h1 className='my-4 text-2xl font-bold text-secondary sm:my-8 sm:text-3xl'>
           ALÇAK GERİLİM SERVİS VE BAKIM
         </h1>

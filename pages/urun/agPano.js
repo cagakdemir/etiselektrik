@@ -8,7 +8,7 @@ export default function AgPano() {
       description='Alçak gerilim panoları imalatı. Ana dağıtım - Tali dağıtım, MCC - DDC, Kompanzasyon Panoları. ETİSPAN, SCHNEIDER, LOKAL çözümler.'
       keywords='Etispan, Etis Pano, Schneider, Prisma, Eae, Ekabin'
     >
-      <div className='flex justify-center items-center'>
+      <div className='flex justify-center items-center simpleContainer'>
         <h1 className='my-4 text-2xl font-bold text-secondary sm:my-8 sm:text-3xl'>
           ALÇAK GERİLİM PANO
         </h1>
