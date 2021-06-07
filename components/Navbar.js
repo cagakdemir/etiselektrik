@@ -41,7 +41,7 @@ export default function Navbar() {
           {/* Phone-Email End */}
 
           {/* Teklif Al*/}
-          <div>
+          <div className='custombp:hidden'>
             <Link href='/iletisim'>
               <a className='btnPrimary ml-4 md:ml-16'>TEKLİF AL</a>
             </Link>

@@ -16,6 +16,9 @@ module.exports = {
         hakkimizdaImage:
           "linear-gradient(to right top, rgba(167, 243, 208, 0.9), rgba(0, 146, 63, 0.9)), url('/images/prismap.jpg')",
       },
+      screens: {
+        custombp: { raw: '(max-width:360px)' },
+      },
     },
   },
   variants: {
