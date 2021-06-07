@@ -17,9 +17,3 @@
 .btnSecondary {
   @apply text-base font-semibold text-primary border-2 cursor-pointer border-primary rounded-xl px-6 py-2 hover:text-primaryDark hover:border-primaryDark;
 }
-
-/* @layer utilities {
-  .h-600 {
-    height: 600x;
-  }
-} */

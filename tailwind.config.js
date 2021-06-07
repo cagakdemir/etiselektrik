@@ -1,7 +1,11 @@
 module.exports = {
-  // purge: ['./src/**/*.html', './src/**/*.js'],
-  purge: [],
-  darkMode: false, // or 'media' or 'class'
+  purge: [
+    './components/*.js',
+    './pages/*.js',
+    './pages/teknikbilgi/*.js',
+    './pages/urun/*.js',
+  ],
+  darkMode: false,
   theme: {
     extend: {
       colors: {
