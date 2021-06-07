@@ -82,7 +82,7 @@ export default function Navbar() {
       {/* Second row */}
       <div
         className={`pr-10 bg-primary h-0 transition-all ease-in-out duration-500 md:transition-none md:h-auto md:py-2 ${
-          isMenuOn ? 'h-52 py-2' : ''
+          isMenuOn ? 'h-60 py-2' : ''
         }`}
       >
         <ul
@@ -90,49 +90,49 @@ export default function Navbar() {
             isMenuOn ? '' : 'hidden md:flex'
           }`}
         >
-          <li>
+          <li className='pb-1 sm:py-0'>
             <Link href='/'>
               <a className='headerLink'>Anasayfa</a>
             </Link>
           </li>
           <li className='hidden md:inline-block mx-3 text-secondary'>|</li>
-          <li>
+          <li className='pb-1 sm:py-0'>
             <Link href='/hakkimizda'>
               <a className='headerLink'>Hakkımızda</a>
             </Link>
           </li>
           <li className='hidden md:inline-block mx-3 text-secondary'>|</li>
-          <li>
+          <li className='pb-1 sm:py-0'>
             <Link href='/urunler'>
               <a className='headerLink'>Ürünler</a>
             </Link>
           </li>
           <li className='hidden md:inline-block mx-3 text-secondary'>|</li>
-          <li>
+          <li className='pb-1 sm:py-0'>
             <Link href='/belgeler'>
               <a className='headerLink'>Belgeler</a>
             </Link>
           </li>
           <li className='hidden md:inline-block mx-3 text-secondary'>|</li>
-          <li>
+          <li className='pb-1 sm:py-0'>
             <Link href='/referanslar'>
               <a className='headerLink'>Referanslar</a>
             </Link>
           </li>
           <li className='hidden md:inline-block mx-3 text-secondary'>|</li>
-          <li>
+          <li className='pb-1 sm:py-0'>
             <Link href='/iletisim'>
               <a className='headerLink'>İletişim</a>
             </Link>
           </li>
           <li className='hidden md:inline-block mx-3 text-secondary'>|</li>
-          <li>
+          <li className='pb-1 sm:py-0'>
             <Link href='/kataloglar'>
               <a className='headerLink'>Kataloglar</a>
             </Link>
           </li>
           <li className='hidden md:inline-block mx-3 text-secondary'>|</li>
-          <li>
+          <li className='pb-1 sm:py-0'>
             <Link href='/teknikbilgi'>
               <a className='headerLink'>Teknik Bilgi</a>
             </Link>
