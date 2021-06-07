@@ -18,7 +18,7 @@ export default function Navbar() {
           <Link href='/'>
             <img
               className='h-12 cursor-pointer'
-              src='../images/logo.jpeg'
+              src='../images/logo.jpg'
               alt='Logo'
             />
           </Link>

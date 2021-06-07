@@ -17,7 +17,7 @@ export default function Footer() {
               <Link href='/'>
                 <img
                   className='h-12 cursor-pointer'
-                  src='../images/logo.jpeg'
+                  src='../images/logo.jpg'
                   alt='Logo'
                 />
               </Link>
@@ -25,7 +25,8 @@ export default function Footer() {
 
             <div className='mt-6 lg:max-w-sm'>
               <p className='text-sm text-secondary'>
-                25 yılı aşkın süre deneyime sahip kadrosuyla Etis Elektrik her zaman yanınızda.
+                25 yılı aşkın süre deneyime sahip kadrosuyla Etis Elektrik her
+                zaman yanınızda.
               </p>
               <p className='mt-4 text-sm text-secondary'>
                 Telefon ya da email ile 7/24 iletişim kurabilirsiniz.
@@ -49,8 +50,10 @@ export default function Footer() {
               <div>
                 <FaMapMarkerAlt className='mr-1 w-5 h-5 text-secondary' />
               </div>
-              <span>İkitelli Organize Sanayi Bölgesi İPKAS Sanayi Sitesi 2. Blok
-              No:33-34-35-36 Başakşehir İstanbul</span>
+              <span>
+                İkitelli Organize Sanayi Bölgesi İPKAS Sanayi Sitesi 2. Blok
+                No:33-34-35-36 Başakşehir İstanbul
+              </span>
             </div>
           </div>
           <div className='flex just'>
