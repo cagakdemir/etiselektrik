@@ -7,8 +7,9 @@ export default function Urunler() {
   return (
     <Layout
       title='Etis Elektrik Ürünler ve Servisler'
-      description=''
-      keywords=''
+      hreflangUrl='https://www.etiselektrik.com.tr/urunler'
+      description='Etis Elektrik yaptığı işler ve kullanılan ürünler'
+      keywords='Alçak gerilim pano, orta gerilim taahhüt, orta gerilim bakım, alçak gerilim bakım, enerji kalitesi çözümleri, kompanzasyon çözümleri'
     >
       {/* Text start */}
       <div className='flex justify-center items-center'>

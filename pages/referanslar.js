@@ -8,6 +8,7 @@ export default function Referanslar({ references }) {
   return (
     <Layout
       title='Etis Elektrik Referanslar'
+      hreflangUrl='https://www.etiselektrik.com.tr/referanslar'
       description='Etis Elektrik AG dağıtım panoları, OG Taahhüt, OG/AG Bakım, Kompanzasyon Referanslar'
       keywords='Elektrik Pano, Referans'
     >

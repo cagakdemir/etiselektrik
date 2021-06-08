@@ -5,6 +5,7 @@ export default function Kompanzasyon() {
   return (
     <Layout
       title='Kompanzasyon Çözümleri, Kompanzasyon Bakım, Reaktif Ceza Önlem'
+      hreflangUrl='https://www.etiselektrik.com.tr/kompanzasyon'
       description='Reaktif ceza önlemleri. Kompanzasyon panoları. Kompanzasyon bakım.'
       keywords='Reaktif ceza, Endüktif ceza, Kapasitif ceza, Kompanzasyon, Kompanzasyon bakım'
     >

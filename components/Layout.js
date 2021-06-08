@@ -2,11 +2,18 @@ import Head from 'next/head';
 import Navbar from './Navbar';
 import Footer from './Footer';
 
-export default function Layout({ title, keywords, description, children }) {
+export default function Layout({
+  title,
+  hreflangUrl,
+  keywords,
+  description,
+  children,
+}) {
   return (
     <div>
       <Head>
         <title>{title}</title>
+        <link rel='alternate' hreflang='tr-TR' href={hreflangUrl} />
         <meta name='description' content={description} />
         <meta name='keywords' content={keywords} />
         <script
@@ -32,6 +39,7 @@ s0.parentNode.insertBefore(s1,s0);
 
 Layout.defaultProps = {
   title: 'Etis Elektrik - Schneider Elektrik Alçak Gerilim Pano Partneri',
+  hreflangUrl: 'https://www.etiselektrik.com.tr',
   description:
     'Alçak gerilim pano, Kompanzasyon, Enerji kalitesi, Orta gerilim bakım, Trafo merkezi, Elektrik bakım konularında ihtiyaçlarınıza uygun çözümler',
   keywords:

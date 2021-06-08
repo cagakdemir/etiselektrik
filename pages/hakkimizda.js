@@ -30,6 +30,7 @@ export default function Hakkimizda() {
   return (
     <Layout
       title='Etis Elektrik Hakkımızda'
+      hreflangUrl='https://www.etiselektrik.com.tr/hakkimizda'
       description='Etis Elektrik hızlı ve kaliteli imattıyla, deneyimli kadrosuyla yanınızda'
       keywords='Etispan, Tip Test, SMM, Yüksek Gerilim İşletme Sorumluluğu'
     >

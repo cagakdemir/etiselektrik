@@ -5,6 +5,7 @@ export default function OgBakim() {
   return (
     <Layout
       title='Orta Gerilim Trafo Merkezi Servis ve Bakım'
+      hreflangUrl='https://www.etiselektrik.com.tr/ogBakim'
       description='Orta Gerilim tesislerinizde servis ve bakım. Güç trafosu, hücre, kesici, röle servis, test ve bakımları.'
       keywords='Trafo bakım, Trafo servis, Trafo merkezi, Trafo merkezi bakım, Trafo merkezi servis'
     >

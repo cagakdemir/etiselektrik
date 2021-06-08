@@ -5,6 +5,7 @@ export default function AgBakim() {
   return (
     <Layout
       title='Alçak Gerilim Servis ve Bakım'
+      hreflangUrl='https://www.etiselektrik.com.tr/agBakim'
       description='Alçak gerilim servis ve bakım. Dokunmaya, arka, yangına karşı önlemler. Termal kamera raporu. Pano, motor, genel tesisat kontrol ve bakımı'
       keywords='Elektrik bakım, termal kamera, Ark flash, Ark, Topraklama'
     >

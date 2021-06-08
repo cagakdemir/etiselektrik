@@ -3,7 +3,7 @@ import Layout from '../components/Layout';
 
 export default function PageNotFound() {
   return (
-    <Layout title='Sayfa bulunamadı'>
+    <Layout title='Sayfa bulunamadı' description='' keywords=''>
       <div className='flex justify-center items-center'>
         <h1 className='my-6 text-2xl font-bold text-secondary sm:my-12 sm:text-3xl'>
           Sayfa bulunamadı...

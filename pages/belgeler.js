@@ -7,6 +7,7 @@ export default function Belgeler({ documents }) {
   return (
     <Layout
       title='Etis Elektrik Belgeler ve Sertifikalar'
+      hreflangUrl='https://www.etiselektrik.com.tr/belgeler'
       description='Etis Elektrik Sertifikaları: Etispan IEC61439-1 Tip Test, Schneider Yetkili Pano Partnerliği, ISO9001, Yüksek Gerilim İşletme Sorumluluğu, Topraklama Yetki Belgesi.'
       keywords='Etispan, Tip test, ISO9001, SMM, Yüksek Gerilim İşletme Sorumluluğu, Topraklama'
     >

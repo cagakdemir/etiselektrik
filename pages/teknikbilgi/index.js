@@ -13,6 +13,7 @@ export default function TeknikBilgi({ blogPosts, page, total }) {
   return (
     <Layout
       title='AG/OG, Kompanzasyon, Enerji Kalitesi, Elektrik Servis ve Bakım Teknik Yazılar'
+      hreflangUrl='https://www.etiselektrik.com.tr/teknikBilgi'
       description='Alçak gerilim pano, Kompanzasyon, Enerji kalitesi, Orta gerilim bakım, Trafo merkezi, Elektrik bakım konularında teknik yazılar'
       keywords='Alçak gerilim pano, Kompanzasyon, Enerji kalitesi, Orta gerilim bakım, Trafo merkezi, Elektrik Bakım'
     >

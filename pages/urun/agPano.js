@@ -5,6 +5,7 @@ export default function AgPano() {
   return (
     <Layout
       title='Alçak Gerilim Dağıtım Panoları - Etispan, Prisma, EAE'
+      hreflangUrl='https://www.etiselektrik.com.tr/agPano'
       description='Alçak gerilim panoları imalatı. Ana dağıtım - Tali dağıtım, MCC - DDC, Kompanzasyon Panoları. ETİSPAN, SCHNEIDER, LOKAL çözümler.'
       keywords='Etispan, Etis Pano, Schneider, Prisma, Eae, Ekabin'
     >

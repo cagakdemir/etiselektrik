@@ -5,6 +5,7 @@ export default function OgTaahhut() {
   return (
     <Layout
       title='Orta Gerilim Trafo Merkezi Taahhüt'
+      hreflangUrl='https://www.etiselektrik.com.tr/ogTaahhut'
       description='Orta gerilim trafo merkezlerinin enerji izninin alınması, projelendirilmesi, tedarik ve montajı, kabul işlemleri. Yüksek gerilim işletme sorumluluğu.'
       keywords='Trafo merkezleri, Enerji nakil hatları, Yüksek gerilim işletme sorumluluğu, Enerji izni, enerji müsade yazısı,'
     >

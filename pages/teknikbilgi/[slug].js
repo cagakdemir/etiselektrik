@@ -5,7 +5,7 @@ import { API_URL } from '../../config/index';
 
 const replace = require('str-replace');
 
-export default function BlogPost({ post }) {
+export default function BlogPost({ post, slug }) {
   let styledContent = post.content;
 
   styledContent = replace
@@ -78,6 +78,7 @@ export default function BlogPost({ post }) {
   return (
     <Layout
       title={post.title}
+      hreflangUrl={`https://www.etiselektrik.com.tr/teknikBilgi/${slug}`}
       description={post.metaDescription}
       keywords={post.metaKeywords}
     >
@@ -98,6 +99,7 @@ export async function getServerSideProps({ query: { slug } }) {
   return {
     props: {
       post: post,
+      slug,
     },
   };
 }

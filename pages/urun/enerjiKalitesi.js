@@ -5,6 +5,7 @@ export default function EnerjiKalitesi() {
   return (
     <Layout
       title='Enerji Kalitesi Çözümleri - Harmonik, Gerilim Darbesi, Topraklama'
+      hreflangUrl='https://www.etiselektrik.com.tr/enerjiKalitesi'
       description='Enerji kalitesi sorunlarınıza çözümler. Frekans kaynaklı gerilim problemleri, gerilim darbeleri, aşırı harmonik, topraklama, faz dengesizliği, statik elektrik kaynaklı problemler.'
       keywords='Aşırı yüksek gerilim, Aşırı düşük gerilim, Gerilim Darbesi, Transient, Harmonik, Topraklama, Statik elektrik, elektromanyetik girişim'
     >

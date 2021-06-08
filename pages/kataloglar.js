@@ -7,6 +7,7 @@ export default function Kataloglar({ catalogs }) {
   return (
     <Layout
       title='Schneider Fiyat Listeleri ve Kataloglar'
+      hreflangUrl='https://www.etiselektrik.com.tr/kataloglar'
       description='Sık kullanılan Schneider güncel fiyat listeleri ve kataloglara buradan ulabilirsiniz.'
       keywords='Schneider Fiyat Listesi, Schneider Katalog'
     >
