@@ -38,7 +38,7 @@ s0.parentNode.insertBefore(s1,s0);
 }
 
 Layout.defaultProps = {
-  title: 'Etis Elektrik - Schneider Elektrik Alçak Gerilim Pano Partneri',
+  title: 'ETİS ELEKTRİK - AG/OG Elektrik Çözüm Partneriniz',
   hreflangUrl: 'https://www.etiselektrik.com.tr',
   description:
     'Alçak gerilim pano, Kompanzasyon, Enerji kalitesi, Orta gerilim bakım, Trafo merkezi, Elektrik bakım konularında ihtiyaçlarınıza uygun çözümler',
